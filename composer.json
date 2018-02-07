@@ -1,0 +1,5 @@
+{
+    "require": {
+        "scriptotek/google-books": "^0.2.3"
+    }
+}
