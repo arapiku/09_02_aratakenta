@@ -20,7 +20,8 @@
     └── database.php .. DB情報（環境に合わせて書き換えてください）
   ├── uploads/ .. アップロード画像フォルダ
   ├── vendor/ .. Google Books API利用に関するフォルダ
-  ├── index.php .. トップ
+  ├── top.php .. 登録前トップ
+  ├── index.php .. ログイン後トップ
   ├── signup.php .. 新規登録
   ├── login.php .. ログイン
   ├── logout.php .. ログアウト
@@ -69,3 +70,6 @@
 | bid                      | varchar(20) not null |
 | title                    | varchar(255) not null |
 | comment                  | varchar(1000) not null |
+
+## 前回との比較
+topページの追加
