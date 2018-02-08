@@ -1,4 +1,4 @@
-# Gs DEV9 php08（更新/削除）課題
+# Gs DEV9 php09（LOGIN）課題
 
 ## 使用した技術要素
 - XAMPP 5.6.3
