@@ -48,6 +48,7 @@ input[type=text], input[type=password], textarea {
     width: 100%;
 }
 
+/* header */
 header {
     background-color: #58182e;
     margin: 0 0 40px;
@@ -133,6 +134,32 @@ header .avatar {
     color: #744152;
 }
 
+/* top */
+#container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+p.top_comment {
+    font-size: 24px;
+    padding-top: 40px;
+}
+
+.book_list .top_comment_list {
+    padding: 0 20px;
+}
+
+.book_list .top_comment_list li {
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.book_list .top_comment_list li div.comment_area {
+    margin-right: 10px;
+}
+
+
+
 /* signup */
 #search_btn { 
     margin-top: 10px;
@@ -202,10 +229,13 @@ fieldset p, form p {
 
 .book_list {
     margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
 }
 
 .book_list li {
-    float: left;
+    /* float: left; */
     width: 33.333%;
     padding-bottom: 40px;
 }
