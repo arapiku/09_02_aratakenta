@@ -11,8 +11,6 @@ if (!isset($_SESSION["NAME"])) {
 function h($str) {
     return htmlspecialchars($str, ENT_QUOTES, 'UTF-8');
 }
-
-include_once "templates/header.php";
 ?>
 <p>ようこそ<u><?= h($_SESSION["NAME"]); ?></u>さん</p>
 <ul>
